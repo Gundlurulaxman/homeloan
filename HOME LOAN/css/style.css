@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Header start*/
+header .menubar{
+    background: #f5511e;
+}
+header .navbar a:hover{
+    color: #f5511e !important;
+    border-bottom: #f5511e 3px solid;
+}
+
+/*Banner Start*/
+#banner .carousel-caption{
+    top: 100px;
+    left: 100px;
+}
+#banner .carousel-caption h1,p,h3{
+    text-align:left;
+}
+/*Offer start*/
+#offer .title::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #f5511e;
+    margin: 15px auto;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+body{
+    background: #f6f7f9;
+}
+#offer i{
+    color: #f5511e;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+/*application start*/
+#application .title::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #f5511e;
+    margin: 15px auto;
+    border-radius: 5px; 
+    margin-bottom: 45px;  
+}
+#application{
+    margin-top: 45px;
+    
+}
+#application img{
+    height: 360px;
+    transition: all,ease,2s; 
+}
+#application img:hover{
+    transform: scale(1.5);
+}
+#application .card{
+    overflow: hidden;
+}
+#application i{
+   color: #f5511e;
+   margin-right: 10px;
+}
+/*News section start*/
+#news{
+    margin-top: 45px;
+    
+}
+#news .title::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #f5511e;
+    margin: 15px auto;
+    border-radius: 5px; 
+    margin-bottom: 45px;  
+}
+#news img{
+    height: 250px;
+    transition: all,ease,2s; 
+    animation: xyz 2s ease infinite;  
+}
+@keyframes xyz {
+    from{
+        transform: scale(1,1);
+        transform: rotatex(0deg);
+    }
+    to{
+        transform: scale(1.5,1.5);
+        transform: rotatey(360deg);
+    }
+}
+#news img:hover{
+    transform: scale(1.5);
+}
+#news .card{
+    overflow: hidden;
+}
+/*Footer section start*/
+footer{
+    background-color: #0e0f11;
+    color: #fefefe; 
+    
+}
+footer .row{
+    padding: 40px 0px;
+}
+footer img{
+    height: 50px;
+    
+}
+/*footer input{
+    font-size: 20px;
+}
+footer button{
+    color: white;
+    font-size: 20px;
+    background-color: orange;
+    margin-left: -5px;
+    border-radius: 3px;  
+}*/
+footer i{
+    font-size: 28px;
+}
+footer .bottom{
+    background-color: #141416;
+    height: 80px;
+    
+    
+}
+footer .bottom h6{
+    padding-top: 30px;
+}
